@@ -1,0 +1,21 @@
+body .esoftcreator-contener{
+	direction: rtl;
+}
+.daterangepicker .drp-calendar{float: right;}
+.daterangepicker select.monthselect, .daterangepicker select.yearselect {
+	padding: 0px 5px 0px 5px;
+    margin: 0 2px;
+	}
+	.daterangepicker .calendar-table .prev span{transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);}
+ .daterangepicker .calendar-table .next span {transform: rotate(
+135deg);
+    -webkit-transform: rotate(
+135deg);}
+.daterangepicker{direction: rtl; text-align: right;}
+.daterangepicker .ranges{text-align: right;}
+.daterangepicker .drp-buttons .btn{margin-left: 0px; margin-right: 15px;}
+.daterangepicker .drp-selected{padding-left: 8px; padding-right: 0px;}
+.drp-calendar.left::before{right:inherit; left: 0px;}
+.drp-calendar.left{padding-left: 11px; padding-right: 11px;}
+.daterangepicker .drp-calendar.right{margin-right: 0; padding-right: 11px; padding-left: 0px;}
